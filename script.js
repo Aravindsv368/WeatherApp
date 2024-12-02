@@ -6,6 +6,7 @@ const apiUrl =
 async function checkWeather(city) {
   const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
   var data = await response.json();
+  //lkjhgf
   const arr = {
     Clouds:
       "https://png.pngtree.com/png-clipart/20220909/original/pngtree-sun-cloud-icon-weather-png-image_8508243.png",
